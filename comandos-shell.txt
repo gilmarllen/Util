@@ -1,2 +1,0 @@
-Procura, recursivamente, arquivos contendo a string TESTE
-find ./* -type f -exec grep -l TESTE {} \;
