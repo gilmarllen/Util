@@ -1,0 +1,5 @@
+Shell | Procura, recursivamente, arquivos contendo a string TESTE
+find ./* -type f -exec grep -l TESTE {} \;
+
+Git | Salva as credenciais user e password do Git em cache (Executar dentro de uma pasta com aplicação Git)
+git config credential.helper cache
